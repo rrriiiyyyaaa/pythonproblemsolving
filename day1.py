@@ -10,7 +10,6 @@ If n is even and greater than 20 , print Not Weird
 '''
 
 
-
 n = int(input())
 
 if (n%2 != 0) or (n>=6 and n<=20):
