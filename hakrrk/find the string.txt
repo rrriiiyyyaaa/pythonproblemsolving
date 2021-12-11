@@ -1,0 +1,22 @@
+
+#Here, we are using logic as per given in example.
+
+def count_substring(string, sub_string)
+	mlength = len(string)       //mlength stores the string value
+	slength = len(sub_string) //slength stores substring value
+	 count =0
+
+return count
+
+	for i in range(mlength-slength+1)
+		if(string[i:i+slength] == sub_string):
+		count=count+1
+
+return count
+
+
+
+'''
+in main function:
+ prrint count
+'''
